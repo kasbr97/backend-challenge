@@ -44,4 +44,4 @@ def create_user(user: schemas.UserCreate, db: Session = Depends(get_db)):
     
 @app.get("/")
 def root():
-    return { "Hello" : "World"}
+    return { "Hello" : "Go to URL + /docs"}
